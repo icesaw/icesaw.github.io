@@ -1,2 +1,2 @@
 # Project 140 
-My website portfolio project by Alexey Milovanov.
+Website portfolio project by Alexey Milovanov.
