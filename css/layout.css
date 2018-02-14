@@ -1,67 +1,195 @@
 @charset "utf-8";
 
-/*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 2
-   Case Problem 1
-   
-   PHCT Layout Styles
-   Filename: ph_layout.css
+@font-face {
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v9-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local('Play Regular'), local('Play-Regular'),
+       url('../fonts/play-v9-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/play-v9-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/play-v9-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/play-v9-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/play-v9-latin_cyrillic-regular.svg#Play') format('svg'); /* Legacy iOS */
+}
 
-*/
-
+p {
+    margin: 0px;
+    padding: 5px 25px 5px 25px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
 
 body {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1020px;
-	min-width: 640px;
-}
-
+    background-color: hsl(0, 0%, 30%);
+    font-family: Play, sans-serif;
+	}
+/*
 body > header {
-	margin: 0;
-	padding: 0px;
-	width: 100%;
+    background-color: hsl(0, 0%, 30%);
+    height: 100px;
+    
+ }
+
+body > header > nav > ul {
+	
+	position: sticky; 
+    
+	
+    
+   
 }
 
-body > header > img {
-	margin: 0px;
-	padding: 0px;
-	width: 100%;
-}
-
-
-
-/* Navigation List Styles */
-nav {
-	display: table;
-	width: 100%;
-}
-
-nav > ul {
-	display: table-row;
-}
-
-nav > ul > li {
-	display: table-cell;
-	text-align: center;
-}
-
-nav > ul > li > a {
-	display: block;
-}
-
-
-/* Section Styles */
-
-section {
-	clear: right;
-}
-
-/* Description List Styles */
-
-dl {
+body > header > nav > ul > li {
+	display: inline-block;
+    color: white; 
+	width: 20%;
 	float: right;
-	width: 40%;
-	margin: 0 0 0 4%;
+    font-size: 0.8em;
+	height: 40px;
+	text-align: center;
+    position: relative;
+    }
+
+body > header > nav > ul > li > a {
+	display: block;
+    color: white;
+	height: 100%; 
+	cursor: pointer;
+    
+    } /
+
+nav > ul > li > ul {
+    background-color: hsl(0, 0%, 20%);   
+    display: block;
+    position: absolute;
+    padding: 12px 16px;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav > ul > li > ul > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav > ul > li > a:link,  nav:visited {
+    color: white;
+    text-decoration: none;
+    background-color: hsla(0, 0%, 20%, 0.4);
+    color: hsla(225, 20%, 60%, 0.7) ;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: hsla(0, 0%, 100%, 0.7);
+    background-color: hsla(0, 0%, 30%, 0.7);
+    display: block;
+}
+
+nav > ul > li > ul > li >a:link, nav > ul > li > ul > li:visited, {
+    display: block;
+    color: white;
+    background-color: hsla(0, 0%, 20%, 0.4);
+    color: hsla(225, 20%, 60%, 0.7) ;
+}
+
+nav > ul > li > ul > li:hover, nav > ul > li > ul > li:active {
+    color: hsla(0, 0%, 100%, 0.7);
+    background-color: hsla(0, 0%, 30%, 0.7);
+    display: block;
+}
+*/
+section {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+
+section#info h1 {
+    font-family:  Play, sans-serif;
+    color: hsla(0, 0%, 100%, 0.7);    
+}
+
+section.infopage h1 {
+    margin: 0px;
+    padding: 20px 0px 10px 20px;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+section#info {
+    background-color: hsl(0, 0%, 20%);   
+}
+
+address {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-style: normal;
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 20%);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.7)
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: hsl(0, 0%, 30%);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/* Shadows */
+section, body > header > nav > ul {
+    -moz-box-shadow: rgba(61, 61, 61, 0.9) 20px 0px 25px,  rgba(61, 61, 61, 0.9) -20px 0px 25px;
+    -webkit-box-shadow: rgba(61, 61, 61, 0.9) 20px 0px 25px,  rgba(61, 61, 61, 0.9) -20px 0px 25px;
+    box-shadow: rgba(61, 61, 61, 0.9) 20px 0px 25px,  rgba(61, 61, 61, 0.9) -20px 0px 25px;   
 }
