@@ -4,13 +4,13 @@
   font-family: 'Play';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/play-v9-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: url('https://github.com/icesaw/icesaw.github.io/blob/master/fonts/play-v9-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
   src: local('Play Regular'), local('Play-Regular'),
-       url('../fonts/play-v9-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/play-v9-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/play-v9-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/play-v9-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/play-v9-latin_cyrillic-regular.svg#Play') format('svg'); /* Legacy iOS */
+       url('https://github.com/icesaw/icesaw.github.io/blob/master/fonts/play-v9-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://github.com/icesaw/icesaw.github.io/blob/master/fonts/play-v9-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://github.com/icesaw/icesaw.github.io/blob/master/fonts/play-v9-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+       url('https://github.com/icesaw/icesaw.github.io/blob/master/fonts/play-v9-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://github.com/icesaw/icesaw.github.io/blob/master/fonts/play-v9-latin_cyrillic-regular.svg#Play') format('svg'); /* Legacy iOS */
 }
 
 p {
