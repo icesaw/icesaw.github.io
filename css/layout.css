@@ -23,83 +23,7 @@ body {
     background-color: hsl(0, 0%, 30%);
     font-family: Play, sans-serif;
 	}
-/*
-body > header {
-    background-color: hsl(0, 0%, 30%);
-    height: 100px;
-    
- }
 
-body > header > nav > ul {
-	
-	position: sticky; 
-    
-	
-    
-   
-}
-
-body > header > nav > ul > li {
-	display: inline-block;
-    color: white; 
-	width: 20%;
-	float: right;
-    font-size: 0.8em;
-	height: 40px;
-	text-align: center;
-    position: relative;
-    }
-
-body > header > nav > ul > li > a {
-	display: block;
-    color: white;
-	height: 100%; 
-	cursor: pointer;
-    
-    } /
-
-nav > ul > li > ul {
-    background-color: hsl(0, 0%, 20%);   
-    display: block;
-    position: absolute;
-    padding: 12px 16px;
-    min-width: 160px;
-    z-index: 1;
-}
-
-nav > ul > li > ul > li > a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    
-}
-
-nav > ul > li > a:link,  nav:visited {
-    color: white;
-    text-decoration: none;
-    background-color: hsla(0, 0%, 20%, 0.4);
-    color: hsla(225, 20%, 60%, 0.7) ;
-}
-
-nav > ul > li > a:hover, nav > ul > li > a:active {
-    color: hsla(0, 0%, 100%, 0.7);
-    background-color: hsla(0, 0%, 30%, 0.7);
-    display: block;
-}
-
-nav > ul > li > ul > li >a:link, nav > ul > li > ul > li:visited, {
-    display: block;
-    color: white;
-    background-color: hsla(0, 0%, 20%, 0.4);
-    color: hsla(225, 20%, 60%, 0.7) ;
-}
-
-nav > ul > li > ul > li:hover, nav > ul > li > ul > li:active {
-    color: hsla(0, 0%, 100%, 0.7);
-    background-color: hsla(0, 0%, 30%, 0.7);
-    display: block;
-}
-*/
 section {
     margin-top: 50px;
     margin-left: 100px;
@@ -183,9 +107,6 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
-
 
 /* Shadows */
 section, body > header > nav > ul {
