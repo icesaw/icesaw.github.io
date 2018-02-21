@@ -28,6 +28,8 @@ body {
     margin-left: 100px;
     margin-top: 50px;
     border-radius: 10px 10px 10px 10px;
+    width: 90%;
+    float: none;
 }
 
 .navname {
@@ -48,6 +50,27 @@ body {
     height: 315px;
     position: relative;
   }
+
+.infopage2 {
+    border-radius: 10px 10px 10px 10px;
+    background-color: hsl(0, 0%, 90%);
+    min-height: 100px;
+    height: 400px;
+    width: 90%;
+    position: relative;
+    margin: 5%;
+    }
+
+.infopage2 h1 {
+    border-style: outset; 
+    border-radius: 10px 10px 10px 10px;
+    color: hsl(0, 0%, 0%);
+    text-shadow: rgba(61, 61, 61, 0.9) 10px 0px 15px,  rgba(61, 61, 61, 0.9) -10px 0px 15px;
+    font-size: 7em;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+   }
 
 .infopage h1 {
     color: hsla(0, 0%, 100%, 0.7);
@@ -71,9 +94,10 @@ body {
     margin: 0px;
     padding: 5px 0px 5px 15px;
     color: hsla(0, 0%, 100%, 0.7);
-    text-decoration: none;
     width: 40%;
+    text-decoration: none;
     }
+
 
 .lionimage {
     border-radius: 10px 10xp 10xp 10xp;
@@ -82,7 +106,7 @@ body {
     top: 0;
     position: absolute;
     overflow: hidden;
-    margin-right: 10px;
+    margin-right: 10px; 
 }
 
 li {
@@ -96,7 +120,7 @@ li a:hover, .dropdown:hover .dropbtn, section a:hover {
 
 li a, .dropbtn {
     display: inline-block;
-    width: 150px;
+    width: 180px;
     color: hsla(0, 0%, 100%, 0.7);
     text-align: center;
     padding: 14px 16px;
@@ -123,7 +147,7 @@ li.dropdown {
     -moz-box-shadow: 3px 4px 3px rgba(61, 61, 61, 0.9),  rgba(61, 61, 61, 0.9) -3px 4px 3px;
     -webkit-box-shadow: 3px 4px 3px rgba(61, 61, 61, 0.9),  rgba(61, 61, 61, 0.9) -3px 4px 3px ;
     box-shadow: 3px 4px 3px rgba(61, 61, 61, 0.9),  rgba(61, 61, 61, 0.9) -3px 4px 3px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .dropdown-content a {
@@ -141,6 +165,7 @@ li.dropdown {
 .dropbutton:hover .dropdown-content {
  	visibility: visible;
     opacity: 1;
+
 }
 
 .infopage, .navbar {
