@@ -153,7 +153,7 @@ body {
    }
 .infopage2 p {
     margin: 10px;
-    padding: 5px 0px 5px 15px;
+    padding: auto 0px 5px 5px;
     text-align: center;
     text-decoration: none;
     }
