@@ -170,10 +170,6 @@ body {
     top: 0;
 }
 
-
-
-
-
 /* Index Page */
 .infopage {
     margin-top: 50px;
@@ -247,7 +243,6 @@ body {
 .dropbutton:hover .dropdown-content {
  	visibility: visible;
     opacity: 1;
-
 }
 .infopage, .navbar {
     -moz-box-shadow: hsl(0, 0%, 10%) 10px 0px 15px,  hsl(0, 0%, 10%) -10px 0px 15px;
