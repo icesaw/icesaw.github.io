@@ -29,7 +29,7 @@ body {
     border-style: outset; 
     border-color: hsl(0, 0%, 30%);
     float: none;
-}
+   }
 .navbar li {
     float: right;
 }
@@ -37,6 +37,11 @@ body {
     background-color: hsl(0, 0%, 10%);
     color: white;
 }
+/*
+.selected {
+    color: white;
+    background-color: hsl(0, 0%, 10%);
+} */
 .navbar li a, .dropbtn {
     display: block;
     width: 180px;
@@ -47,6 +52,7 @@ body {
 }
 .navbar li.dropdown, .dropdown:hover  {
     display: block;
+    color: white;
 }
 .navbar li.navname {
     display: block;
@@ -58,21 +64,61 @@ body {
     float: left;
  }
 /* Warning Page */
+.navbar2 {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 0%);
+    height: 45px;
+    width: 63%;
+    margin: 50px auto;
+    border-radius: 10px 10px 10px 10px;
+    border-style: outset; 
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 30%);
+    float: none;
+    opacity: .6;
+}
+.navbar2 li {
+    float: right;
+}
+.navbar2 li a:hover, section a:hover {
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+}
+.navbar2 li a {
+    display: block;
+    width: 180px;
+    color: hsla(0, 0%, 100%, 0.7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar2 li.navname {
+    display: block;
+    width: 200px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+    float: left;
+}
 .info2 {
     background: url(../img/lion3.jpg) no-repeat center top #000000;
     background-repeat: no-repeat;
     border-radius: 10px 10px 10px 10px;
+    position: relative;
 }
-.info2 .button {
+.infopage2 .button {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     height: 40px;
-    width: 320px;
+    width: 154px;
     margin: auto;
     float: none;
  	}
-.info2 .button a {
+.infopage2 .button a {
     display: block;
     border: 2px solid black;
     border-radius: 10px;
@@ -85,7 +131,7 @@ body {
 	width: 150px;
     height: 30px;
 	}
-.info2 .button a:hover {
+.infopage2 .button a:hover {
 	background-color: #000000;
 	color: #ffffff;
 }
@@ -97,6 +143,7 @@ body {
     width: 800px;
     text-align: center;
     margin: 400px auto;
+    height: 70%;
    }
 .infopage2 h1 {
     color: hsl(0, 0%, 0%);
@@ -110,6 +157,23 @@ body {
     text-align: center;
     text-decoration: none;
     }
+.info2 .copy {
+    color: white;
+    font-style: normal;
+    text-align: center;
+    font-size: 0.9em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    margin-left: 46.6%;
+    margin-top: 25%;
+    top: 0;
+}
+
+
+
+
+
 /* Index Page */
 .infopage {
     margin-top: 50px;
