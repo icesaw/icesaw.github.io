@@ -46,7 +46,7 @@ body {
     display: block;
     width: 180px;
     color: hsla(0, 0%, 100%, 0.7);
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
 }
